@@ -1,0 +1,12 @@
+/*
+Theme Name: slate-0.3.1_winkelhof
+Theme URI: https://github.com/mahmut070/winkelhof
+Description: a clean slate - winkelhof child theme
+Version: 0.3.1
+Author: mahmut
+Author URI: http://www.lokaalgevonden.nl
+Tags: slate
+Template: slate-0.3.1
+*/
+
+@import url('../slate-0.3.1/style.css');

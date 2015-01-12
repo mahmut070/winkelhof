@@ -33,10 +33,13 @@
 	margin: 0px;
 }
 
-.Navigation-link.is-active {
-  text-decoration: underline;
-}
-
+@media all and (min-width: 1040px) {
+  .Navigation-listItem.is-active {
+    background: red;
+    background: url(../img/arrow.png) center top no-repeat;
+    background-position: 36% 0%;
+  }
+} 
 // -------------------------------------
 // Context
 // -------------------------------------
@@ -51,11 +54,10 @@
 
 .Navigation-listItem {
   display: block;
-  margin: 0 rem(5px);
+  margin: 0 rem(3px);
   float: left;
   padding: 10px 10px 10px 0px;
   &:first-of-type {
-    margin-left: 0;
   }
   &:last-of-type {
     margin-right: 0;

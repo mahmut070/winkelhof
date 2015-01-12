@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
     speed: 500,
     infiniteLoop: true,
     hideControlOnEnd: true,
-    touchEnabled: false,
+    touchEnabled: true,
     pager: true,
     controls: true,
     onSliderLoad: function() {

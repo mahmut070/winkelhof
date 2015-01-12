@@ -1,0 +1,18 @@
+/*Gallery settings*/
+
+
+.ngg-gallery-thumbnail img, .ngg-navigation a.page-numbers, .next{
+	border: 0 !important;
+
+	&:hover{
+
+		background-color: #0d5282 !important;
+	}
+}
+
+.ngg-album-compactbox {
+	border: 1px solid #000000 !important;
+	border-radius: 3px;
+	background: #ffffff;
+}
+/*<-- einde gallery settings/>*/

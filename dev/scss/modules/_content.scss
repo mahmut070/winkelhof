@@ -3,7 +3,7 @@
 }
 
 .welkom-tekst-area{
-	background: #f6f7f8;
+	background: #f3f5f6;
 }
 
 .welkom-tekst-area h2{
@@ -19,4 +19,223 @@
 
 .welkom-tekst-area p{
 	color: #292e32;
+}
+
+.sidebar-block{
+	background: #eff1f2;
+	text-align: center;
+	padding-top: 35px;
+	height: 160px;
+}
+
+.sidebar-block a{
+	color: #000000;
+	font-weight: 600;
+}
+
+.sidebar-block img{
+	width: 60px;
+}
+
+.mail-area{
+	width: 50%;
+	float: left;
+}
+
+.route-area{
+	width: 50%;
+	float: right;
+}
+
+.sidebar-block-middle{
+	background: #eff1f2;
+	text-align: center;
+	padding-top: 35px;
+	height: 130px;
+	margin-top: 10px;
+}
+
+.nieuws-area{
+	width: 50%;
+	float: left;
+}
+
+.nieuws-area img{
+	width: 60px;
+}
+
+.nieuws-area-link{
+	width: 50%;
+	float: right;
+	text-align:left;
+}
+
+.nieuws-area-link a{
+	color: #000000;
+	font-weight: 600;
+}
+
+.sidebar-block-bottom{
+	background: #eff1f2;
+	text-align: center;
+	padding-top: 35px;
+	height: 180px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sidebar-block-bottom a{
+	color: #000000;
+	font-weight: 600;
+}
+
+.sidebar-block-bottom img{
+	width: 60px;
+}
+
+.sidebar-block-facebook{
+	margin-top: 40px;
+}
+
+.content-titel{
+	font-size: 15px;
+	font-weight: 600;
+	border-bottom: 1px solid #e2e2e2;
+	margin-top: 40px;
+	padding-bottom: 7px;
+}
+
+.hr-titel{
+	border: 2px solid rgb(15, 92, 146);
+	margin-top: -25px;
+	float: left;
+	width: 275px;
+}
+
+.openingstijd-dag{
+	width: 120px;
+}
+
+.tabel-weekenddiensten{
+	margin-bottom: 30px;
+}
+
+.tabel-weekenddiensten td, .tabel-weekenddiensten th{
+	padding: 12px;
+}
+
+.titel-bold{
+	font-weight: 600;
+}
+
+th{
+	text-align: left;
+}
+
+#gform_submit_button_1, #gform_submit_button_2{
+	background: #0d456c;
+	border:0px;
+	border-radius: 3px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+ .blog{
+    display: none;	
+ }
+
+ .blog:nth-of-type(-n+3){
+   display: block;
+ }
+
+  .show-all{
+ 	width: 200px;
+	background-color: #0f5c92;
+	color: #ffffff;
+	border: 0px;
+	border-radius: 5px;
+	line-height: 10px;
+	padding: 10px;
+	height: 50px;
+	outline: none;
+	margin-top: 50px;
+ }
+
+//Slideshow settings
+ #slideshow {
+    position:relative;
+    height: 270px;
+}
+
+#slideshow img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    border:3px solid #d6d6d6;
+}
+
+#slideshow img.active {
+    z-index:10;
+}
+
+#slideshow img.last-active {
+    z-index:9;
+}
+
+#gform_fields_2{
+	background: rgb(239, 241, 242);
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.inhoud{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.inhoud a{
+	border: 3px solid #0e5587;
+	padding: 12px;
+	border-radius: 5px;
+	color: #0e5587;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+//App pagina
+.google-play{
+   display: block;
+   margin-top: 30px;
+}
+
+.qr_code{
+  width: 200px;
+  margin-top: 30px;
+}
+
+
+@media all and (max-width: 600px) {
+	.welkom-tekst-area h2{
+		font-size: 24px;
+	}
+
+	.tabel-weekenddiensten td, .tabel-weekenddiensten th{
+		padding: 6px;
+		font-size: 10px;
+	}
+}
+
+@media all and (max-width: 635px) {
+	.sidebar-block{
+		margin-top: 35px
+	}
+}
+@media all and (max-width: 1024px) {
+
+	.inhoud a{
+		display: block;
+		margin-top: 20px;
+		width: 100%;
+	}
 }

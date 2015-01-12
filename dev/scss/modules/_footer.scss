@@ -1,4 +1,29 @@
 .Footer {
+	background: #0d456c;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+
+.Footer h4{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 600;
+	border-bottom: 2px solid #e2e2e2;
+	margin-top: 40px;
+	padding-bottom: 7px;
+}
+
+.Socket{
+	text-align: center;
+}
+
+.Socket a{
+	color: #024c8d;
+	font-weight: 600;
+}
+
+.oranje-tekst{
+	color: #f9971a;
 }
 
 // RESPONSIVE FOOTER
@@ -17,3 +42,15 @@
 
 }
 
+.menu-0{
+	width: 250px;
+	color: #000000;
+}
+
+.social-media-button{
+	width: 50px;
+}
+
+.twitter-button{
+	margin-left: 20px;
+}

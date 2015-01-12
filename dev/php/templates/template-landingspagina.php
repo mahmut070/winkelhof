@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Homepage
+Template Name: Landingspagina
 */
 ?>
 
@@ -29,6 +29,8 @@ Template Name: Homepage
 
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<article class="Content Content--home" id="post-<?php the_ID(); ?>">
+						<h4 class="content-titel"><?php the_title(); ?></h4>
+						<hr class="hr-titel">
 						<div>
 							<?php the_content(); ?>
 							<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
@@ -36,18 +38,19 @@ Template Name: Homepage
 					</article>
 				<?php endwhile; endif; ?>
 
+
 				<div class="slideshowcontainer">
-					<div id="slideshow">
+						<div id="slideshow">
 
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-1.jpg">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-1.jpg">
 
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-2.jpg">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-2.jpg">
 
-						 <img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-3.jpg">
+							 <img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-3.jpg">
 
-						 <img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-4.jpg">
+							 <img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-4.jpg">
 
-					</div>
+						</div>
 				</div>
 
      		</div>

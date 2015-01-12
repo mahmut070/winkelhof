@@ -38,6 +38,12 @@
   font-size: 16px;
 }
 
+@media all and (max-width: 1040px) {
+  .telefoonNummer{
+    display: none;
+  }
+}
+
 // -------------------------------------
 // Module specific variables
 // -------------------------------------

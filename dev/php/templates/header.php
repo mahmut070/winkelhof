@@ -20,8 +20,8 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon.png">
 
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -36,6 +36,17 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <!-- /build -->
 
+    <!--Facebook like box-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
@@ -46,7 +57,7 @@
  <div class="u-gridContainer">
      <div class="u-gridRow">                 
          <div class="u-gridCol6">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png">
+            <a href="/home"><img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"></a>
          </div>
 
          <div class="u-gridCol6 telefoonnummer-area">
@@ -69,21 +80,23 @@
 			</a>
 		</div>
 
+    <div class="Mob-contact-ico">
+      <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0715896868">
+        <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+          <use xlink:href="#icon-phone"></use>
+        </svg>
+      </a>
+
+      <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@dierenkliniekwinkelhof.nl">
+        <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+          <use xlink:href="#icon-envelope"></use>
+        </svg>
+      </a>
+    </div><!-- header-contact -->
+
 		<?php include 'includes/navigation.php'; ?>
 		
-		<div class="Mob-contact-ico">
-			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0715896868">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-phone"></use>
-				</svg>
-			</a>
-		
-                <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@dierenkliniekwinkelhof.nl">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-envelope"></use>
-				</svg>
-			</a>
-		</div><!-- header-contact -->
+
 	</div>
   </div>
 </div>

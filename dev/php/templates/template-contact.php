@@ -16,7 +16,7 @@ Template Name: Contactpage
 					<div class="u-gridRow">					
 						<div class="adress u-gridCol4">
 							<div class="adress-info">
-								<p>winkelhof</p>
+								<p>Dierenkliniek Winkelhof</p>
 								<p>Reaal 5-D</p>
 								<p>2353 TK Leiderdorp</p>
 								<p>Email: info@dierenkliniekwinkelhof.nl</p>
